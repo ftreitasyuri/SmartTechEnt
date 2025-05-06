@@ -1,5 +1,5 @@
 <template>
-  <main class="text-third sm:container p-2 sm:m-auto sm:max-w-[750px]">
+  <div class="p-8 text-third">
     <h1 class="text-4xl font-bold">Contato</h1>
     <form @submit.prevent="submitForm" class="grid container mx-auto text-fifth">
       <label for="nome">Nome:</label>
@@ -22,7 +22,7 @@
 
       <button type="submit" class="bg-third rounded-md h-12 text-lg font-bold">Enviar</button>
     </form>
-  </main>
+  </div>
 </template>
 
 <script>
