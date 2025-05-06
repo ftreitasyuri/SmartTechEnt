@@ -1,12 +1,12 @@
 <template>
-  <nav class="bg-primary text-white flex items-center border-b-2 justify-between sm:p-4
+  <nav class="bg-primary flex items-center border-b-2 justify-between
                           
               
   ">
     <!-- Logo -->
     <div>
       <router-link to="/">
-        <img class="w-32 md:w-40 md:h-30 lg:w-52" src="../assets/images/logoTech.png" alt="Logotipo">
+        <img class="w-32 sm:w-22" src="../assets/images/logoTech.png" alt="Logotipo">
       </router-link>
     </div>
 
