@@ -1,83 +1,54 @@
 <template>
-  <main class="text-third sm:container p-2 sm:m-auto sm:max-w-[750px]">
-    <h1 class="text-4xl font-bold">Contato</h1>
-    <form @submit.prevent="submitForm" class="grid container mx-auto text-fifth">
-      <label for="nome">Nome:</label>
-      <input v-model="form.nome" type="text" id="nome" class="input" placeholder="Digite seu nome" />
-
-      <label for="assunto">Assunto:</label>
-      <input v-model="form.assunto" type="text" id="assunto" class="input" placeholder="Assunto da mensagem" />
-
-      <label for="empresa">Empresa:</label>
-      <input v-model="form.empresa" type="text" id="empresa" class="input" placeholder="Sua empresa (opcional)" />
-
-      <label for="email">Email:</label>
-      <input v-model="form.email" type="email" id="email" class="input" placeholder="Digite seu e-mail" />
-
-      <label for="telefone">Telefone:</label>
-      <input v-model="form.telefone" type="tel" id="telefone" class="input" placeholder="Telefone para contato" />
-
-      <label for="mensagem">Mensagem:</label>
-      <textarea v-model="form.mensagem" id="mensagem" class="input" placeholder="Digite sua mensagem"></textarea>
-
-      <button type="submit" class="bg-third rounded-md h-12 text-lg font-bold">Enviar</button>
+  <div class="p-8 text-third">
+    <form @submit.prevent="sendEmail" class="space-y-4 max-w-xl mx-auto p-6 rounded shadow">
+      <input v-model="form.name" type="text" placeholder="Nome" class="input" required />
+      <input v-model="form.subject" type="text" placeholder="Assunto Ex: Desenvolvimento de um app" class="input"
+        required />
+      <input v-model="form.company" type="text" placeholder="Empresa ou Nome Fantasia" class="input" />
+      <input v-model="form.email" type="email" placeholder="Email corporativo ou pessoal" class="input" required />
+      <input v-model="form.phone" type="tel" placeholder="Telefone ou celular" class="input" maxlength="11" />
+      <textarea v-model="form.message" placeholder="Descreva aqui a sua solicitação/dúvida" class="input h-32"
+        required></textarea>
+      <!-- <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Enviar</button> -->
+      <button type="submit" class="bg-third w-full rounded-md h-12 text-lg text-white font-bold">Enviar</button>
     </form>
-  </main>
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'Contact',
-  data() {
-    return {
-      form: {
-        nome: '',
-        assunto: '',
-        empresa: '',
-        email: '',
-        telefone: '',
-        mensagem: '',
-      },
-    };
-  },
-  methods: {
-    async submitForm() {
-      try {
-        const response = await fetch('http://127.0.0.1:8000/api/contatos', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json',
-          },
-          body: JSON.stringify(this.form),
-        });
+<script setup>
+import { reactive } from 'vue'
+import emailjs from 'emailjs-com'
 
-        const data = await response.json();
+const form = reactive({
+  name: '',
+  subject: '',
+  company: '',
+  email: '',
+  phone: '',
+  message: '',
+})
 
-        if (!response.ok) {
-          console.error('Erro da API:', data);
-          throw new Error(data.message || 'Erro ao enviar formulário');
-        }
+const sendEmail = () => {
+  emailjs.send('service_yef2kht', 'template_pm7zbgq', form, 'EIaoy-GfdMjuJhXaO')
+    .then(() => {
+      alert('Mensagem enviada com sucesso!');
+      form.name = ''
+      form.subject = ''
+      form.company = ''
+      form.email = ''
+      form.phone = ''
+      form.message = ''
 
-        alert('Mensagem enviada com sucesso!');
-        this.form = { nome: '', assunto: '', empresa: '', email: '', telefone: '', mensagem: '' };
-      } catch (error) {
-        alert('Erro ao enviar mensagem: ' + error.message);
-        console.error('Detalhes:', error);
-      }
-    },
-  },
-};
+    })
+    .catch((error) => {
+      console.error('Erro:', error)
+      alert('Falha ao enviar mensagem.')
+    })
+}
 </script>
 
 <style>
 .input {
-  min-height: 2.5rem;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  background: #f5f5f5;
-  color: #000;
-  font-size: 1rem;
+  @apply w-full p-2 border border-gray-300 rounded;
 }
 </style>
