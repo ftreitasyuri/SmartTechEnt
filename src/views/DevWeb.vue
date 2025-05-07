@@ -49,9 +49,10 @@
             </div>
 
             <!-- AREA DE TÉCNOLOGIAS -->
-            <div class="text-fifth p-2 mx-4
+            <div class="text-fifth p-2 sm:p-6
                         flex-row 
                         text-center 
+                        
                          bg-second">
                 <h1 class="sm:row-span-1 sm:col-span-5 text-2xl"><strong>Tecnologias</strong></h1>
 

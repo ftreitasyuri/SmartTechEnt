@@ -47,7 +47,7 @@
   ">
   <img class="h-60 w-full sm:h-96" src="../assets/images/dashboardII.jpg" alt="Imagem de dashboard">    
   <h1 class="text-center font-bold mt-2">Bussiness Inteligence (B/I)</h1>
-  <p>Verifique as técnologias utilizadas e alguns projetos de BI</p>
+  <p class="text-center">Verifique as técnologias utilizadas e alguns projetos de BI</p>
 
   </div>
   </router-link>

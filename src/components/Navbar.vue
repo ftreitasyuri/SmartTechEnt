@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-primary flex items-center border-b-2 justify-between
+  <nav class="bg-primary flex items-center border-b-2 justify-between container-
                           
               
   ">
@@ -20,7 +20,7 @@
     <!-- Botão do menu mobile -->
     
       <button
-        class="block sm:hidden flex-end text-2xl focus:outline-none z-10"
+        class="block sm:hidden flex-end text-2xl focus:outline-none z-10 text-white"
         @click="toggleMenu"
       >
         <i class="fa-solid fa-bars m-4"></i> 
