@@ -1,17 +1,19 @@
 <script>
+
+
 </script>
 
 <template>
-    <main class="h-full w-screen grid gap-10
+    <main class="h-full w-screen grid
                 
                 bg-fifth
                 text-primary">
         <!-- INICIOOOOOOO explicação -->
         <div class="text-center">
-            <div class="grid items-center mt-4 mb-2 p-4 bg-second text-fifth">
+            <div class="grid items-center mt-4 mb-2 p-4 bg-second text-fifth" >
                 <h1 class="sm:text-2xl sm:mb-4"><strong>O desenvolvimento WEB,</strong></h1>
                 <hr>
-                <p class="text-sm text-wrap mb-10 sm:text-lg">
+                <p class="text-sm text-wrap  sm:text-lg">
                     é a prática de criar aplicações e sites que podem ser acessados por meio da internet. Através dessa
                     tecnologia, é possível desenvolver qualquer tipo de site e disponibilizá-lo online, permitindo o
                     acesso de pessoas em qualquer lugar do mundo.
@@ -19,8 +21,6 @@
                     Essa área também engloba o desenvolvimento de sites responsivos, que se adaptam a diferentes
                     tamanhos de tela — como smartphones e tablets — possibilitando uma experiência semelhante à de um
                     aplicativo, diretamente pelo navegador.
-
-
                 </p>
             </div>
             <h3 class="flex justify-center -mb-6 sm:text-2xl
@@ -33,38 +33,32 @@
                 <section class="w-full flex flex-col sm:flex-row p-4 gap-5 sm:justify-around">
                     
                     <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000">
+
                         <p>CRM - SMTE</p>
-                        <img src="../assets/img_projects/CRM_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                       <a href="https://crm-front-end-nine.vercel.app" target="_blank">
+                         <img src="../assets/img_projects/CRM_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                       </a>
+                        
                     </div>
+                    <!-- https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app/ -->
                     <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
                         <p>Mundo Lunas Doces</p>
-                        <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[31vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                        <a href="https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app" target="_blank">
+                            <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[31vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                        </a>
+                        
                     </div>
+                    <!-- https://smartechenter.com -->
                     <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
                         <p>Portal de Chamados - SMTE</p>
-                        <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md"/>
+                        <a href="https://smartechenter.com">
+                            <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md"/>
+                        </a>
+                        
                     </div>
               
                 </section>
-                <!-- <section class="flex gap-5">
-                    <div>
-                        <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-[60vw] h-[30vw]" alt="Img_CRM">
-                    </div>
-                    <div>
-                        <img src="../assets/img_projects/MUNDOLUA_MOBILE.jpg" class="max-h-[30vw] h-[30vw] w-[14vw]" alt="Img_CRM">
-                    </div>
-                </section>
-                <section class="flex gap-5">
-                    <div>
-                        <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="hidden sm:block max-w-[60vw]  h-[30vw]"
-                            alt="Img_CRM">
-                    </div>
-                    <div>
-                        <img src="../assets/img_projects/CHAMADOS_MOBILE.jpg" class="max-h-[30vw] h-[30vw] w-[14vw]" alt="Img_CRM">
-                    </div>
-                </section> -->
-
-
+           
 
             </div>
 
