@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-primary flex items-center border-b-2 justify-between container-
+  <nav class="bg-primary flex items-center border-b-2 justify-between  p-2
                           
               
   ">
@@ -12,8 +12,8 @@
 
     <!-- Menu (Desktop) -->
     <ul class="hidden sm:flex space-x-4 text-xl sm:text-2xl text-third">
-      <li class="my-4 mx-4"><router-link to="/" class="hover:text-gray-200">Home</router-link></li>
-      <li class="my-4 mx-4"><router-link to="/about" class="hover:text-gray-200">Sobre Nós</router-link></li>
+      <li class="my-4 mx-4"><router-link to="/" class="hover:text-gray-200 ">Home</router-link></li>
+      <li class="my-4 mx-4"><router-link to="/about" class="hover:text-gray-200">Sobre</router-link></li>
       <li class="my-4 mx-4"><router-link to="/contact" class="hover:text-gray-200">Contate-nos</router-link></li>
     </ul>
 
@@ -37,7 +37,7 @@
         <a href="#"><i class="fa-solid fa-arrow-rotate-left"></i></a>
       </li>
       <li class="my-4 mx-4 text-2xl"><router-link to="/" class="hover:text-gray-200" @click="backMenu">Home</router-link></li>
-      <li class="my-4 mx-4 text-2xl"><router-link to="/about" class="hover:text-gray-200"  @click="backMenu">Sobre Nós</router-link></li>
+      <li class="my-4 mx-4 text-2xl"><router-link to="/about" class="hover:text-gray-200"  @click="backMenu">Sobre</router-link></li>
       <li class="my-4 mx-4 text-2xl"><router-link to="/contact" class="hover:text-gray-200"  @click="backMenu">Contate-nos</router-link></li>
     </ul>
   </nav>

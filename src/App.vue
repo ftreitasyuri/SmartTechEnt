@@ -1,25 +1,22 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import Rodape from './components/Rodape.vue';
+import { RouterLink, RouterView } from 'vue-router';
 
 
 </script>
 
 <template>
-  <section id="app" class="h-screen w-screen 
-                  
-                  grid grid-col-1 grid-rows-20                  
-                  
-  ">  
+  <section id="app" class="h-screen w-full">  
 
 
-    <div class="row-span-1 "><Navbar/></div>
-    <div class="row-span-1 grid justify-center items-center -mb-24 font-bold">
-      <h1 class="text-2xl  border-b-4 text-fifth border-fifth">Consultoria de TI</h1>      
+    <div class=" "><Navbar/></div>
+    <div class="grid justify-center items-center -mb-24 font-bold">
+      <!-- <h1 class="text-2xl  border-b-4 text-fifth border-fifth">Consultoria de TI</h1>       -->
     </div>
-    <div class="row-span-10 mt-24"><router-view /></div>
+    <div class="mt-24"><router-view /></div>
     
-    <div class="row-span-1"><Rodape/></div>
+    <div class=""><Rodape/></div>
 
     
     

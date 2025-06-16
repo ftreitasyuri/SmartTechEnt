@@ -9,7 +9,7 @@
         <!-- INICIOOOOOOO explicação -->
         <div class="text-center">
             <div class="grid items-center mt-4 mb-2 p-4 bg-second text-fifth">
-                <h1 class="sm:text-3xl sm:mb-4"><strong>O desenvolvimento WEB,</strong></h1>
+                <h1 class="sm:text-2xl sm:mb-4"><strong>O desenvolvimento WEB,</strong></h1>
                 <hr>
                 <p class="text-sm text-wrap mb-10 sm:text-lg">
                     é a prática de criar aplicações e sites que podem ser acessados por meio da internet. Através dessa
@@ -23,41 +23,61 @@
 
                 </p>
             </div>
-            <h3 class="flex justify-center -mb-6 sm:text-3xl
+            <h3 class="flex justify-center -mb-6 sm:text-2xl
                         
             "><strong>Nossos Projetos</strong></h3>
-            <div class="flex justify-between gap-2 p-2 mx-4 my-8 bg-second
-                        lg:container lg:mx-auto sm:justify-around              
+            <div class="flex flex-wrap mx-auto gap-2 p-2 my-8 bg-fifth
+                        lg:w-[90vw] 
             ">
-                <div class="grid items-center">
-                    <a href="https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app/" target="_blank">
-                        <img class="w-72 lg:w-36  border border-fifth rounded-full bg-fifth"
-                            src="../assets/images/lualogo.png" alt="LogoTipoLuaBolos">
-                    </a>
-                </div>
-                <div class="grid items-center">
-                    <a href="https://smartechenter.com/login" target="_blank"><img
-                            class="w-80 lg:w-48  border border-fifth rounded-full bg-primary"
-                            src="../assets/images/logoTech.png" alt="Logo do site smartechen"></a>
-                </div>
-                <div class="grid items-center">
-                    <img class="w-72 lg:w-36 border border-fifth rounded-full bg-primary"
-                        src="../assets/images/logoTech.png" alt="">
-                </div>
+
+                <section class="w-full flex flex-col sm:flex-row p-4 gap-5 sm:justify-around">
+                    
+                    <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000">
+                        <p>CRM - SMTE</p>
+                        <img src="../assets/img_projects/CRM_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                    </div>
+                    <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
+                        <p>Mundo Lunas Doces</p>
+                        <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[31vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                    </div>
+                    <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
+                        <p>Portal de Chamados - SMTE</p>
+                        <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md"/>
+                    </div>
+              
+                </section>
+                <!-- <section class="flex gap-5">
+                    <div>
+                        <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-[60vw] h-[30vw]" alt="Img_CRM">
+                    </div>
+                    <div>
+                        <img src="../assets/img_projects/MUNDOLUA_MOBILE.jpg" class="max-h-[30vw] h-[30vw] w-[14vw]" alt="Img_CRM">
+                    </div>
+                </section>
+                <section class="flex gap-5">
+                    <div>
+                        <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="hidden sm:block max-w-[60vw]  h-[30vw]"
+                            alt="Img_CRM">
+                    </div>
+                    <div>
+                        <img src="../assets/img_projects/CHAMADOS_MOBILE.jpg" class="max-h-[30vw] h-[30vw] w-[14vw]" alt="Img_CRM">
+                    </div>
+                </section> -->
+
 
 
             </div>
 
             <!-- AREA DE TÉCNOLOGIAS -->
-            <div class="text-fifth p-2 sm:p-6
+            <!-- <div class="text-fifth p-2 sm:p-6
                         flex-row 
                         text-center 
                         
                          bg-second">
-                <h1 class="sm:row-span-1 sm:col-span-5 text-2xl"><strong>Tecnologias</strong></h1>
+                <h1 class="sm:row-span-1 sm:col-span-5 text-2xl"><strong>Tecnologias</strong></h1> -->
 
                 <!-- CONTEUDO GERAL -->
-                <div class="sm:flex sm:row-span-1 sm:col-span-5
+                <!-- <div class="sm:flex sm:row-span-1 sm:col-span-5
                             sm:gap-4            
                 ">
                     <div class=" border rounded-md my-4 p-2">
@@ -118,9 +138,9 @@
                             PHP é uma escolha popular para construir aplicações robustas e gerenciar conteúdo na web.
                         </p>
                     </div>
-                </div>
+                </div> -->
                 <!-- FIM CONTEUDO GERAL -->
-            </div>
+            <!-- </div> -->
             <!-- FIM DE TÉCNOLOGIAS -->
         </div>
         <!-- FIM explicação -->

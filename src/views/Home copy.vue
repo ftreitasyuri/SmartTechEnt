@@ -5,8 +5,6 @@
       grid justify-center
       sm:flex sm:gap-6              
   ">
-
-
   <!-- <router-link to="/devweb">
     <div class="
       border rounded-sm w-96 sm:min-w-80 sm:w-11/12 mt-4 p-2      
@@ -53,12 +51,13 @@
   
   <!-- FIM TERCEIRA PARTE -->
 
- <DevWeb/>
+ 
   
   </main> 
 </template>
 
-<script setup>
-import DevWeb from './DevWeb.vue'
-
+<script>
+export default {
+  name: 'Home',
+}
 </script>
