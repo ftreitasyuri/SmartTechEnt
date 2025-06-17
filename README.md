@@ -1,28 +1,24 @@
-# smartteckproject
+# Projeto consultoria smartteckproject
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto tem como objetivo servir de portifólio para apresentar as minhas habilidades como programador full stack apresentando meus projetos contando com esse.
 
-## Recommended IDE Setup
+## Para rodar esse projeto em sua máquina
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1- Use o git clone para baixar o projeto no seu ambiente local
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Instalar as dependencias
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar e rodar como desenvolvedor
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar e preparar produção
 
 ```sh
 npm run build

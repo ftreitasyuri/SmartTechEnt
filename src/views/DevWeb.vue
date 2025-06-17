@@ -36,23 +36,23 @@
 
                         <p>CRM - SMTE</p>
                        <a href="https://crm-front-end-nine.vercel.app" target="_blank">
-                         <img src="../assets/img_projects/CRM_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                         <img src="../assets/img_projects/CRM_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md" alt="Img_CRM">
                        </a>
                         
                     </div>
                     <!-- https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app/ -->
                     <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
-                        <p>Mundo Lunas Doces</p>
+                        <p>Mundo Lunar Doces</p>
                         <a href="https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app" target="_blank">
-                            <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[31vh] hover:w-[31vw] border rounded-md" alt="Img_CRM">
+                            <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[31vh] border rounded-md" alt="Img_CRM">
                         </a>
                         
                     </div>
                     <!-- https://smartechenter.com -->
                     <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
                         <p>Portal de Chamados - SMTE</p>
-                        <a href="https://smartechenter.com">
-                            <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw] sm:max-h-[30vh] hover:w-[31vw] border rounded-md"/>
+                        <a href="https://smartechenter.com" target="_blank">
+                            <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md"/>
                         </a>
                         
                     </div>
