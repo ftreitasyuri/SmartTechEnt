@@ -28,23 +28,23 @@
       </div>
     </div>
 
-    <section class="mt-4 border-t-2">
+    <section class="mt-4 sm:flex justify-between">
 
-      <div class="bg-second p-4 text-fifth rounded-lg shadow-2xl mb-4">
-        <h1 class="text-4xl font-bold">Missão</h1>
-        <p class="mt-4 border-b-2">
+      <div class="bg-second flex flex-col justify-center p-4 text-fifth rounded-lg shadow-2xl mb-4 sm:max-w-[25vw]">
+        <h1 class="text-2xl font-bold">Missão</h1>
+        <p class="mt-4">
           Desenvolver soluções de software personalizadas que agreguem valor real aos negócios, promovendo inovação, eficiência e transformação digital por meio da tecnologia, automação e análise de dados.
         </p>
       </div>
-      <div class="bg-second p-4 text-fifth rounded-lg shadow-2xl mb-4">
-        <h1 class="text-4xl font-bold ">Visão</h1>
-        <p class="mt-4  border-b-2">
+      <div class="bg-second flex flex-col justify-center p-4 text-fifth rounded-lg shadow-2xl mb-4 sm:max-w-[25vw]">
+        <h1 class="text-2xl font-bold ">Visão</h1>
+        <p class="mt-4 ">
           Ser reconhecida como uma referência nacional em desenvolvimento de software, Business Intelligence e automações, contribuindo para o crescimento sustentável de empresas por meio de soluções inteligentes e acessíveis.
         </p>
       </div>
 
-      <div class="bg-second p-4 text-fifth rounded-lg shadow-2xl">
-        <h1 class="text-4xl font-bold">Valores</h1>
+      <div class="bg-second p-4 text-fifth rounded-lg shadow-2xl sm:max-w-[25vw]">
+        <h1 class="text-2xl font-bold">Valores</h1>
         <h2 class="mt-4">
           <p> <strong class="border-b-2">Inovação Contínua</strong>: 
             Buscamos sempre as melhores tecnologias e práticas para entregar soluções modernas e eficazes.
