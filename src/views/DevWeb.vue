@@ -42,16 +42,27 @@ import { RouterLink } from 'vue-router';
                 <div class="sm:flex gap-2 ">
 
                     <div class="border-8">
-                        <!-- <p class="">CRM - SMTE</p> -->
 
                         <img src="../assets/img_projects/CRM_DESKTOP.jpg"
-                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000"
+                            alt="Img_CRM">
                     </div>
-                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
-                        <p><strong>Projeto: </strong>SMTE - CRM</p>
-                        <p><strong>FrontEnd: </strong>VueJs V3</p>
-                        <p><strong>BackEnd: </strong>API - Laravel V12</p>
-                        <p><strong>Link Documentação: </strong><a href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Docs</a></p>                        
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] gap-10 items-center">
+                        <div class="max-w-[450px] w-[350px]">
+                            <p><strong>Projeto: </strong>SMTE - CRM</p>
+                            <p><strong>FrontEnd: </strong>VueJs V3</p>
+                            <p><strong>BackEnd: </strong>API - Laravel V12</p>
+                            <p><strong>Link Documentação: </strong><a
+                                    href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Docs</a>
+                            </p>
+                        </div>
+                        <div>
+                            <p><strong>Link do Projeto: </strong><a href="https://crm-front-end-nine.vercel.app/" target="_blank" class="underline">SMTE - CRM</a></p>
+                            <p><strong>Descrição: </strong>
+                                Esse projeto foi desenvolvido com vue3 e consome uma API laravel 12 com proteção de
+                                rotas. Usamos o sanctum para proteger as rotas. A API está hospedada no RailWay.
+                            </p>
+                        </div>
                     </div>
 
                 </div>
@@ -61,13 +72,25 @@ import { RouterLink } from 'vue-router';
                         <!-- <p class="">CRM - SMTE</p> -->
 
                         <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg"
-                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000"
+                            alt="Img_CRM">
                     </div>
-                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
-                        <p><strong>Projeto: </strong>SMTE - Portal de Chamados</p>
-                        <p><strong>FrontEnd: </strong>Blade Components</p>
-                        <p><strong>BackEnd: </strong>Laravel V11</p>
-                        <p><strong>Link Documentação: </strong>Sem Docs ainda</p>                        
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] gap-10 items-center">
+                        <div class="max-w-[450px] w-[350px]">
+                            <p><strong>Projeto: </strong>SMTE - Portal de Chamados</p>
+                            <p><strong>FrontEnd: </strong>Larvel com Blade Components</p>
+                            <p><strong>BackEnd: </strong>Laravel V11</p>
+                            <!-- <p><strong>Link Documentação: </strong><a
+                                    href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Docs</a>
+                            </p> -->
+                        </div>
+                        <div>
+                            <p><strong>Link do Projeto: </strong><a href="https://smartechenter.com/" target="_blank" class="underline">Portal de Chamados</a></p>
+                            <p><strong>Descrição: </strong>
+                                Esse projeto foi desenvolvido em Laravel na versão 11x e, foi hospedado na Hostinger com
+                                MySQL
+                            </p>
+                        </div>
                     </div>
 
                 </div>
@@ -77,13 +100,25 @@ import { RouterLink } from 'vue-router';
                         <!-- <p class="">CRM - SMTE</p> -->
 
                         <img src="../assets/img_projects/SITE_FORM_DESKTOP.jpg"
-                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000"
+                            alt="Img_CRM">
                     </div>
-                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
-                        <p><strong>Projeto: </strong>SMTE - HR Management</p>
-                        <p><strong>FrontEnd: </strong>VeuJs V3</p>
-                        <p><strong>BackEnd: </strong>API - Laravel 11</p>
-                        <p><strong>Link Documentação: </strong>Sem Docs ainda</p>  
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] gap-10 items-center">
+                        <div class="max-w-[450px] w-[350px]">
+                            <p><strong>Projeto: </strong>SMTE - HR Management</p>
+                            <p><strong>FrontEnd: </strong>VueJs V3</p>
+                            <p><strong>BackEnd: </strong>API - Laravel V12</p>
+                            <!-- <p><strong>Link Documentação: </strong><a
+                                    href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Docs</a>
+                            </p> -->
+                        </div>
+                        <div>
+                            <p><strong>Link do Projeto: </strong><a href="https://hr-management-xi-eight.vercel.app/" target="_blank" class="underline">HR Management</a></p>
+                            <p><strong>Descrição: </strong>
+                                Esse projeto foi desenvolvido com vue3 e consome uma API laravel 11 com proteção de
+                                rotas. Usamos o sanctum para proteger as rotas. A API está hospedada no RailWay.
+                            </p>
+                        </div>
                     </div>
 
                 </div>
@@ -93,13 +128,24 @@ import { RouterLink } from 'vue-router';
                         <!-- <p class="">CRM - SMTE</p> -->
 
                         <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg"
-                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000"
+                            alt="Img_CRM">
                     </div>
-                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
-                        <p><strong>Projeto: </strong>SMTE - Mundo da Lua Doces</p>
-                        <p><strong>FrontEnd: </strong>NextJS</p>
-                        <p><strong>BackEnd: </strong>No Back</p>
-                        <p><strong>Link Documentação: </strong>Sem Docs ainda</p>  
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] gap-10 items-center">
+                        <div class=" max-w-[450px] w-[350px]">
+                            <p><strong>Projeto: </strong>SMTE - Mundo da Lua Doces</p>
+                            <p><strong>FrontEnd: </strong>VueJs V3</p>
+                            <!-- <p><strong>BackEnd: </strong>API - Laravel V12</p> -->
+                            <!-- <p><strong>Link Documentação: </strong><a
+                                    href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Docs</a>
+                            </p> -->
+                        </div>
+                        <div>
+                            <p><strong>Link do Projeto: </strong><a href="https://mundo-da-lua-bolos.vercel.app/" target="_blank" class="underline">Mundo da Lua</a></p>
+                            <p><strong>Descrição: </strong>
+                                Esse projeto foi com NextJS e não possui backend ainda
+                            </p>
+                        </div>
                     </div>
 
                 </div>

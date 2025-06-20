@@ -1,7 +1,7 @@
 <template>
   <div class="p-8 bg-fifth text-center text-primary min-w-96">
     <div class="text-center">
-      <h1 class="text-4xl font-bold mb-4">Quem Somos</h1>
+      <h1 class="text-4xl font-bold mb-4">Smart Tech Enterprise</h1>
       <div class="grid sm:flex gap-4">
         <p class="text-wrap">
           Fundada em 2016 por Yuri Freitas Queiroz, a SmartTechEnterprise nasceu com o propósito de transformar ideias
@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <section class="mt-4 sm:flex justify-between">
+    <!-- <section class=" mt-4 sm:flex justify-between">
 
       <div class="bg-second flex flex-col justify-center p-4 text-fifth rounded-lg shadow-2xl mb-4 sm:max-w-[25vw]">
         <h1 class="text-2xl font-bold">Missão</h1>
@@ -51,8 +51,6 @@
 
             <strong class="border-b-2">Comprometimento com Resultados</strong>: O sucesso dos nossos clientes é o nosso maior objetivo.
             
-            <!-- <strong class="border-b-2">Transparência</strong>: Manter uma comunicação aberta, honesta e ética com
-            clientes, parceiros e colaboradores. -->
 
             <strong class="border-b-2">Parceria e Colaboração</strong>: Valorizamos relações transparentes, duradouras e baseadas na confiança.
 
@@ -63,12 +61,10 @@
         </h2>
       </div>
 
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
-export default {
-  name: 'About',
-};
+
 </script>

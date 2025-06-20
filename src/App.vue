@@ -24,20 +24,21 @@ import Contact from './views/Contact.vue';
 
       <section class="sm:overflow-x-auto sm:h-[50vw] sm:w-[85vw]">
         <div class="">
-          <DevWeb />
-        </div>
-        <div class="">
           <About />
         </div>
         <div class="">
+          <DevWeb />
+        </div>
+
+        <div class="">
           <Contact />
         </div>
-        
+
       </section>
     </main>
 
 
-<!-- 
+    <!-- 
     <div class="">
       <Rodape />
     </div> -->
