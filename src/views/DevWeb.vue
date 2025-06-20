@@ -1,66 +1,82 @@
 <script>
-
+import { RouterLink } from 'vue-router';
 
 </script>
 
 <template>
-    <main class="h-full w-screen grid
-                
-                bg-fifth
-                text-primary">
-        <!-- INICIOOOOOOO explicação -->
-        <div class="text-center">
-            <div class="grid items-center mt-4 mb-2 p-4 bg-second text-fifth" >
-                <h1 class="sm:text-2xl sm:mb-4"><strong>O desenvolvimento WEB,</strong></h1>
-                <hr>
-                <p class="text-sm text-wrap  sm:text-lg">
-                    é a prática de criar aplicações e sites que podem ser acessados por meio da internet. Através dessa
-                    tecnologia, é possível desenvolver qualquer tipo de site e disponibilizá-lo online, permitindo o
-                    acesso de pessoas em qualquer lugar do mundo.
+    <main class="sm:flex text-primary bg-fifth border-red-500 border">
+        
+        <!-- INICIO explicação -->
+        <div class="w-[100%] min-h-[450px]">
+ 
+            <div class=" text-center mb-2 p-4 bg-second text-fifth">
+                <h1 class="sm:text-2xl "><strong>Transformando Ideias em Soluções Web Poderosas</strong></h1>
+                <h1>Construindo aplicações robustas com Laravel e interfaces intuitivas com Vue.js</h1>
 
-                    Essa área também engloba o desenvolvimento de sites responsivos, que se adaptam a diferentes
-                    tamanhos de tela — como smartphones e tablets — possibilitando uma experiência semelhante à de um
-                    aplicativo, diretamente pelo navegador.
-                </p>
+                <details>
+                    <summary>Clique para ver a descrição sobre desenvolvimento web</summary>
+                    <p class="text-sm text-wrap  sm:text-lg">
+                        O desenvolvimentno WEB é a prática de criar aplicações e sites que podem ser acessados por meio
+                        da internet. Através dessa
+                        tecnologia, é possível desenvolver qualquer tipo de site e disponibilizá-lo online, permitindo o
+                        acesso de pessoas em qualquer lugar do mundo.
+
+                        Essa área também engloba o desenvolvimento de sites responsivos, que se adaptam a diferentes
+                        tamanhos de tela — como smartphones e tablets — possibilitando uma experiência semelhante à de
+                        um
+                        aplicativo, diretamente pelo navegador.
+                    </p>
+                </details>
+
             </div>
             <h3 class="flex justify-center -mb-6 sm:text-2xl
                         
-            "><strong>Nossos Projetos</strong></h3>
-            <div class="flex flex-wrap mx-auto gap-2 p-2 my-8 bg-fifth
-                        lg:w-[90vw] 
-            ">
+            "><strong class="m-5">Nossos Projetos</strong></h3>
 
-                <section class="w-full flex flex-col sm:flex-row p-4 gap-5 sm:justify-around">
-                    
-                    <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000">
+            <!-- <div class="flex flex-wrap mx-auto gap-2 p-2 my-8 bg-fifth
+                        
+            "> -->
 
-                        <p>CRM - SMTE</p>
-                       <a href="https://crm-front-end-nine.vercel.app" target="_blank">
-                         <img src="../assets/img_projects/CRM_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md" alt="Img_CRM">
-                       </a>
-                        
-                    </div>
-                    <!-- https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app/ -->
-                    <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
-                        <p>Mundo Lunar Doces</p>
-                        <a href="https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app" target="_blank">
-                            <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[31vh] border rounded-md" alt="Img_CRM">
-                        </a>
-                        
-                    </div>
-                    <!-- https://smartechenter.com -->
-                    <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
-                        <p>Portal de Chamados - SMTE</p>
-                        <a href="https://smartechenter.com" target="_blank">
-                            <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg" class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md"/>
-                        </a>
-                        
-                    </div>
-              
-                </section>
-           
+            <section class=" flex flex-col sm:flex-row p-4 gap-5 sm:justify-around">
 
-            </div>
+                <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000">
+
+                    <!-- <router-link to="/portal-chamados"> -->
+                    <p class="text-center">CRM - SMTE</p>
+                    <!-- <a href="https://crm-front-end-nine.vercel.app" target="_blank"> -->
+                    <img src="../assets/img_projects/CRM_DESKTOP.jpg"
+                        class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md" alt="Img_CRM">
+                    <!-- </a> -->
+                    <!-- </router-link> -->
+
+
+                </div>
+                <!-- https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app/ -->
+                <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
+                    <p class="text-center">Mundo Lunar Doces</p>
+                    <!-- <a href="https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app" target="_blank"> -->
+                    <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg"
+                        class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[31vh] border rounded-md" alt="Img_CRM">
+                    <!-- </a -->
+
+                </div>
+                <!-- https://smartechenter.com -->
+                <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
+                    <router-link to="/portal-chamados">
+                        <p class="text-center">Portal de Chamados - SMTE</p>
+                        <!-- <a href="https://smartechenter.com" target="_blank"> -->
+                        <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg"
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md" />
+                        <!-- </a> -->
+                    </router-link>
+
+
+                </div>
+
+            </section>
+
+
+
 
             <!-- AREA DE TÉCNOLOGIAS -->
             <!-- <div class="text-fifth p-2 sm:p-6
@@ -70,8 +86,8 @@
                          bg-second">
                 <h1 class="sm:row-span-1 sm:col-span-5 text-2xl"><strong>Tecnologias</strong></h1> -->
 
-                <!-- CONTEUDO GERAL -->
-                <!-- <div class="sm:flex sm:row-span-1 sm:col-span-5
+            <!-- CONTEUDO GERAL -->
+            <!-- <div class="sm:flex sm:row-span-1 sm:col-span-5
                             sm:gap-4            
                 ">
                     <div class=" border rounded-md my-4 p-2">
@@ -133,7 +149,7 @@
                         </p>
                     </div>
                 </div> -->
-                <!-- FIM CONTEUDO GERAL -->
+            <!-- FIM CONTEUDO GERAL -->
             <!-- </div> -->
             <!-- FIM DE TÉCNOLOGIAS -->
         </div>

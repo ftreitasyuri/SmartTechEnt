@@ -1,6 +1,7 @@
 <template>
-  <div class="p-8 text-third">
-    <form @submit.prevent="sendEmail" class="space-y-4 max-w-xl mx-auto p-6 rounded shadow">
+  <div class="p-8 text-third bg-fifth">
+    <h1 class="text-center text-3xl">Contate-nos</h1>
+    <form @submit.prevent="sendEmail" class="space-y-4 max-w-xl mx-auto p-6 rounded shadow bg-primary">
       <input v-model="form.name" type="text" placeholder="Nome" class="input" required />
       <input v-model="form.subject" type="text" placeholder="Assunto Ex: Desenvolvimento de um app" class="input"
         required />
