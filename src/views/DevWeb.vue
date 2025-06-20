@@ -4,11 +4,11 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <main class="sm:flex text-primary bg-fifth border-red-500 border">
-        
+    <main class="sm:flex text-primary bg-fifth">
+
         <!-- INICIO explicação -->
         <div class="w-[100%] min-h-[450px]">
- 
+
             <div class=" text-center mb-2 p-4 bg-second text-fifth">
                 <h1 class="sm:text-2xl "><strong>Transformando Ideias em Soluções Web Poderosas</strong></h1>
                 <h1>Construindo aplicações robustas com Laravel e interfaces intuitivas com Vue.js</h1>
@@ -37,39 +37,70 @@ import { RouterLink } from 'vue-router';
                         
             "> -->
 
-            <section class=" flex flex-col sm:flex-row p-4 gap-5 sm:justify-around">
+            <section class="flex flex-col p-4 gap-5 sm:justify-around">
 
-                <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000">
+                <div class="sm:flex gap-2 ">
 
-                    <!-- <router-link to="/portal-chamados"> -->
-                    <p class="text-center">CRM - SMTE</p>
-                    <!-- <a href="https://crm-front-end-nine.vercel.app" target="_blank"> -->
-                    <img src="../assets/img_projects/CRM_DESKTOP.jpg"
-                        class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md" alt="Img_CRM">
-                    <!-- </a> -->
-                    <!-- </router-link> -->
+                    <div class="border-8">
+                        <!-- <p class="">CRM - SMTE</p> -->
 
-
-                </div>
-                <!-- https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app/ -->
-                <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
-                    <p class="text-center">Mundo Lunar Doces</p>
-                    <!-- <a href="https://mundo-da-lua-bolos-afal81gzy-ftreitasyuri.vercel.app" target="_blank"> -->
-                    <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg"
-                        class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[31vh] border rounded-md" alt="Img_CRM">
-                    <!-- </a -->
+                        <img src="../assets/img_projects/CRM_DESKTOP.jpg"
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                    </div>
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
+                        <p><strong>Projeto: </strong>SMTE - CRM</p>
+                        <p><strong>FrontEnd: </strong>VueJs V3</p>
+                        <p><strong>BackEnd: </strong>API - Laravel V12</p>
+                        <p><strong>Link Documentação: </strong><a href="https://crm-front-end-nine.vercel.app/documentacoes" target="_blank">Docs</a></p>                        
+                    </div>
 
                 </div>
-                <!-- https://smartechenter.com -->
-                <div class="hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000 ">
-                    <router-link to="/portal-chamados">
-                        <p class="text-center">Portal de Chamados - SMTE</p>
-                        <!-- <a href="https://smartechenter.com" target="_blank"> -->
+                <div class="sm:flex gap-2 ">
+
+                    <div class="border-8">
+                        <!-- <p class="">CRM - SMTE</p> -->
+
                         <img src="../assets/img_projects/CHAMADOS_DESKTOP.jpg"
-                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] border rounded-md" />
-                        <!-- </a> -->
-                    </router-link>
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                    </div>
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
+                        <p><strong>Projeto: </strong>SMTE - Portal de Chamados</p>
+                        <p><strong>FrontEnd: </strong>Blade Components</p>
+                        <p><strong>BackEnd: </strong>Laravel V11</p>
+                        <p><strong>Link Documentação: </strong>Sem Docs ainda</p>                        
+                    </div>
 
+                </div>
+                <div class="sm:flex gap-2 ">
+
+                    <div class="border-8">
+                        <!-- <p class="">CRM - SMTE</p> -->
+
+                        <img src="../assets/img_projects/SITE_FORM_DESKTOP.jpg"
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                    </div>
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
+                        <p><strong>Projeto: </strong>SMTE - HR Management</p>
+                        <p><strong>FrontEnd: </strong>VeuJs V3</p>
+                        <p><strong>BackEnd: </strong>API - Laravel 11</p>
+                        <p><strong>Link Documentação: </strong>Sem Docs ainda</p>  
+                    </div>
+
+                </div>
+                <div class="sm:flex gap-2 ">
+
+                    <div class="border-8">
+                        <!-- <p class="">CRM - SMTE</p> -->
+
+                        <img src="../assets/img_projects/MUNDOLUA_DESKTOP.jpg"
+                            class="w-full h-[25vh] sm:max-w-[20vw]  sm:max-h-[30vh] rounded-md hover:shadow-2xl hover:shadow-gray-900 cursor-pointer transition delay-50 duration-1000" alt="Img_CRM">
+                    </div>
+                    <div class="hidden sm:flex bg-second text-fifth p-2 w-[60vw] flex-col gap-10 justify-center items-center">
+                        <p><strong>Projeto: </strong>SMTE - Mundo da Lua Doces</p>
+                        <p><strong>FrontEnd: </strong>NextJS</p>
+                        <p><strong>BackEnd: </strong>No Back</p>
+                        <p><strong>Link Documentação: </strong>Sem Docs ainda</p>  
+                    </div>
 
                 </div>
 
